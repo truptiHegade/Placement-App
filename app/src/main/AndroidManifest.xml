@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.placement">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Placement"
+        tools:targetApi="31">
+        <activity
+            android:name=".schedule"
+            android:exported="false" />
+        <activity
+            android:name=".adminPage"
+            android:exported="false" />
+        <activity
+            android:name=".Event_cell"
+            android:exported="false" />
+        <activity
+            android:name=".calender"
+            android:exported="false" />
+        <activity
+            android:name=".pgm_cse"
+            android:exported="false" />
+        <activity
+            android:name=".interview_cse"
+            android:exported="false" />
+        <activity
+            android:name=".apti_cse"
+            android:exported="false" />
+        <activity
+            android:name=".MechActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CivilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".department"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".signIn"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
